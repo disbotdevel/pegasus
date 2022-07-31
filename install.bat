@@ -5,7 +5,7 @@ pause
 
 echo Installing dependencies...
 pip install --upgrade -r requirements.txt
-
+pip install alive_progress
 echo Running builder...
 python builder.py
 
